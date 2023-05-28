@@ -1,0 +1,158 @@
+.font{
+
+    display: block;
+    font-family: 'Carter One', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Metal Mania', cursive;
+}
+
+body{
+    
+    display:block;
+    background-image:url("img/background/blacksmith.gif");
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+    margin-top:275px;
+    font-size:40px;
+}
+
+.btnCheck{
+    
+    width:140px;
+    padding:10px;
+    margin-bottom:1200px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-style:italic ;
+    color:black;
+    background: transparent;
+
+    position: relative;
+    display: inline-flex;
+    overflow:hidden;
+    
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.btnCheck span{
+
+    position:relative;
+    z-index: 1;
+}
+
+.btnCheck::before{
+
+    content: "";
+    position:absolute;
+    top: var(--y);
+    left: var(--x);
+    width: 0;
+    height: 0;
+    transform: translate(-50% , -50%);
+    border-radius:50%;
+    background:rgb(255, 255, 255);
+    transition: width 0.5s , height 0.5s;    
+}
+
+.btnCheck:hover::before{
+    width:300px;
+    height:300px;
+}
+
+.nav{
+    
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mtxt{
+    
+    margin-left:500px;
+    margin-top: 100px;
+    width: 1000px;
+
+
+    font-family: 'Eczar', serif;
+}
+
+.column{
+    display: block;
+    float:left;
+    width:50%;
+    padding:5px;
+}
+
+.row{
+    
+    display: block;
+    margin-left:600px;
+    margin-top:700px;
+}
+
+img{
+    
+    display: block;
+    border:solid rgb(236, 76, 1);
+    border-width:1 1px;
+    border-radius: 1%;
+    margin-top:100px;  
+}
+
+.banner-name{
+
+    font-style: italic;
+    position:absolute;
+    top:1575%;
+    right:0;
+    margin-right: 500px;
+
+    font-family: 'Princess Sofia', cursive;
+}
+
+.banner-mail{
+
+    font-style: italic;
+    position:absolute;
+    top:1580%;
+    right:0;
+    margin-right: 650px;
+
+    font-family: 'Princess Sofia', cursive;
+}
+
+.banner-mail2{
+
+    font-style: italic;
+    position:absolute;
+    top:1580%;
+    right:0;
+    margin-right: 394px;
+}
+
+.banner-fb{
+
+    font-style: italic;
+    position:absolute;
+    top:1590%;
+    right:0;
+    margin-right: 520px;
+
+    font-family: 'Princess Sofia', cursive;
+}
+
+a{
+    color:black;
+}
+
+
+
+
