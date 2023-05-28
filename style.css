@@ -76,6 +76,7 @@ body{
 
 .mtxt{
     
+    color:aliceblue;
     margin-left:500px;
     margin-top: 100px;
     width: 1000px;
@@ -113,7 +114,7 @@ img{
     position:absolute;
     top:1575%;
     right:0;
-    margin-right: 500px;
+    margin-right: 480px;
 
     font-family: 'Princess Sofia', cursive;
 }
@@ -122,9 +123,9 @@ img{
 
     font-style: italic;
     position:absolute;
-    top:1580%;
+    top:1590%;
     right:0;
-    margin-right: 650px;
+    margin-right: 700px;
 
     font-family: 'Princess Sofia', cursive;
 }
@@ -133,18 +134,21 @@ img{
 
     font-style: italic;
     position:absolute;
-    top:1580%;
+    top:1590%;
     right:0;
-    margin-right: 394px;
+    margin-right: 395px;
+
+    font-family: 'Princess Sofia', cursive;
+
 }
 
 .banner-fb{
 
     font-style: italic;
     position:absolute;
-    top:1590%;
+    top:1583%;
     right:0;
-    margin-right: 520px;
+    margin-right: 625px;
 
     font-family: 'Princess Sofia', cursive;
 }
@@ -152,7 +156,3 @@ img{
 a{
     color:black;
 }
-
-
-
-
